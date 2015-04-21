@@ -1,16 +1,17 @@
 #include<iostream>
 class A
 {
-  int x,y,sum;
+  int x,y,z,sum;
   A(int a,int b)
   {
     x=a;
     y=b;
+    z=8;
     cout<<"The Value of x:"<<x<<"and y:"<<y;
   }
   void add()
   {
-    cout<<"The sum of the two number is:"<<x+y;
+    cout<<"The sum of the two number is:"<<x+y+z;
   }
 }
 int main()
