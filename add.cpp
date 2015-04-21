@@ -7,6 +7,7 @@ class A
     x=a;
     y=b;
     z=8;
+	j=7;
     cout<<"The Value of x:"<<x<<"and y:"<<y;
   }
   void add()
